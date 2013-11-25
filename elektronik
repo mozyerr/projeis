@@ -1,0 +1,12 @@
+CREATE TABLE elektronik (
+	eid INT PRIMARY KEY, 
+	tür VARCHAR(20),
+	marka VARCHAR(20),
+	model VARCHAR(20),
+	fiyat INT,
+	girilen_tarih date,
+	s_adi VARCHAR(20),
+	telefon VARCHAR(20),
+	email VARCHAR(30),
+
+);
