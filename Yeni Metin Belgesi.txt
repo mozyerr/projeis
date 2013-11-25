@@ -1,5 +1,5 @@
 CREATE TABLE mobilya (
-t�r VARCHAR(29)[NOT NULL],
+t�r VARCHAR(29)[NOT NULL],
 model VARCHAR(29)[NOT NULL],
 mid INT [NOT NULL],
 
@@ -10,3 +10,4 @@ ad VARCHAR(29)[NOT NULL],
 email VARCHAR(29)[NOT NULL]
 
 );
+bu alana değişiklik yaptım meltem
