@@ -1,5 +1,5 @@
 CREATE TABLE mobilya (
-tür VARCHAR(29)[NOT NULL],
+tï¿½r VARCHAR(29)[NOT NULL],
 model VARCHAR(29)[NOT NULL],
 mid INT [NOT NULL],
 
