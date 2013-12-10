@@ -1,0 +1,3 @@
+create database kelepir
+use Kelepir
+ delete table uye
