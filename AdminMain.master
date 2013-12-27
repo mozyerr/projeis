@@ -1,0 +1,54 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMain.master.cs" Inherits="Yonetim_AdminMain" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <link rel="stylesheet" href="yonetim.css" type="text/css" media="screen, projection" />
+
+    <title>Eskişehir Psikoterapi Yönetim Paneli</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1254" />
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-9" />
+    <meta http-equiv="Content-Type" content="text/html; charset=x-mac-turkish" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div id="stranka">
+            
+            <h1>Yönetim Paneli
+                <a href="#"></a></h1>
+
+            <menu>
+                 <li><a href="GaleriDuzenle.aspx">Galeri</a></li>
+                <li><asp:LinkButton ID="lnkSifreDegistir" runat="server" OnClick="lnkSifreDegistir_Click">Şifre Değiştir</asp:LinkButton></li>
+                <li><asp:LinkButton ID="lnkbtnCikis" runat="server" OnClick="lnkbtnCikis_Click">Çıkış</asp:LinkButton></li>
+            </menu>
+
+            <div id="border">
+
+                <div id="obsah">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                    </asp:ContentPlaceHolder>
+
+                </div>
+
+                <div id="paticka">
+                    <p id="levo">&copy ESOGÜ Spor Salonu 2013 </p>
+
+                    <p id="pravo">
+                        <a href="../Default.aspx" target="blank">Siteyi Görüntüle</a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
