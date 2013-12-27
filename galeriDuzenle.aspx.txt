@@ -1,0 +1,26 @@
+SqlConnection baglan = new SqlConnection("Data Source=M_AKIFEREN; Database=Database_Project;Integrated Security=true ");
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!IsPostBack)
+        {
+            yukle();
+        }
+
+    }
+
+    public void yukle()
+    {
+        
+        //baglan.ConnectionString = "Provider = Microsoft.Jet.Oledb.4.0; Data Source=" + Server.MapPath("../App_Data\\db.mdb");
+        //baglan.Open();
+        //OleDbCommand listele = new OleDbCommand();
+        //listele.Connection = baglan;
+        //listele.CommandText = "SELECT * from Galeri";
+        //OleDbDataReader drliste = listele.ExecuteReader();
+        //DataTable dtliste = new DataTable();
+        //dtliste.Load(drliste);
+        //Repeater1.DataSource = dtliste;
+        //Repeater1.DataBind();
+        //drliste.Close();
+        //baglan.Close();
+    }
