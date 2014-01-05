@@ -1,0 +1,18 @@
+void KullaniciBilgiGetir()
+        {
+            try
+            {
+                SqlConnection baglan = new SqlConnection("Data Source=M_AKIFEREN; Database=Database_kelepirci;Integrated Security=true ");
+
+
+                string sql = "select * from kullanicigiris where k_id='" + Session["userID"].ToString();
+                DataTable dt = new DataTable();
+               
+            }
+            catch (Exception)
+            {
+
+
+            }
+
+        }
