@@ -1,0 +1,5 @@
+C:\Users\makiferen\Documents\Visual Studio 2012\Projects\kelepir\kelepir\bin\kelepir.dll
+C:\Users\makiferen\Documents\Visual Studio 2012\Projects\kelepir\kelepir\bin\kelepir.pdb
+C:\Users\makiferen\Documents\Visual Studio 2012\Projects\kelepir\kelepir\obj\Debug\kelepir.dll
+C:\Users\makiferen\Documents\Visual Studio 2012\Projects\kelepir\kelepir\obj\Debug\kelepir.pdb
+C:\Users\makiferen\Documents\Visual Studio 2012\Projects\kelepir\kelepir\obj\Debug\kelepir.csprojResolveAssemblyReference.cache
